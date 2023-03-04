@@ -188,48 +188,48 @@ import "../vendor/glightbox/js/glightbox.min.js";
   /**
    * Initiate glightbox
    */
-  const glightbox = GLightbox({
-    selector: ".glightbox",
-  });
+  // const glightbox = GLightbox({
+  //   selector: ".glightbox",
+  // });
 
   /**
    * Initiate Gallery Lightbox
    */
-  const galelryLightbox = GLightbox({
-    selector: ".galelry-lightbox",
-  });
+  // const galelryLightbox = GLightbox({
+  //   selector: ".galelry-lightbox",
+  // });
 
   /**
    * Testimonials slider
    */
-  new Swiper(".testimonials-slider", {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    slidesPerView: "auto",
-    pagination: {
-      el: ".swiper-pagination",
-      type: "bullets",
-      clickable: true,
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
+  // new Swiper(".testimonials-slider", {
+  //   speed: 600,
+  //   loop: true,
+  //   autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false,
+  //   },
+  //   slidesPerView: "auto",
+  //   pagination: {
+  //     el: ".swiper-pagination",
+  //     type: "bullets",
+  //     clickable: true,
+  //   },
+  //   breakpoints: {
+  //     320: {
+  //       slidesPerView: 1,
+  //       spaceBetween: 20,
+  //     },
 
-      1200: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-    },
-  });
+  //     1200: {
+  //       slidesPerView: 2,
+  //       spaceBetween: 20,
+  //     },
+  //   },
+  // });
 
   /**
    * Initiate Pure Counter
    */
-  new PureCounter();
+  // new PureCounter();
 })();
